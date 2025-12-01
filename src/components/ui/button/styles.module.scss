@@ -1,0 +1,22 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+
+  &:hover {
+    background-color: #333;
+  }
+}
+
+.loader {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}

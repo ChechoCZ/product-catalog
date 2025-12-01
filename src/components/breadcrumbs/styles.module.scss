@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+  }
+
+  span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+  }
+
+  span:last-child {
+    font-weight: 600;
+  }
+}

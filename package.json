@@ -3,22 +3,37 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "dev": "next dev",
+    "format": "prettier --write .",
+    "prisma:generate": "npx prisma generate --schema prisma/schema.prisma",
+    "prisma:migrate": "npx prisma db push --schema prisma/schema.prisma",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@prisma/client": "6.19",
+    "@reduxjs/toolkit": "^2.11.0",
+    "@vercel/blob": "^2.0.0",
+    "dotenv": "^17.2.3",
+    "formik": "^2.4.9",
+    "lucide-react": "^0.554.0",
     "next": "16.0.4",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "react-redux": "^9.2.0",
+    "sass": "^1.94.2",
+    "use-debounce": "^10.0.6",
+    "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^20.19.25",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.4",
+    "prettier": "^3.6.2",
+    "prisma": "6.19",
     "typescript": "^5"
   }
 }
