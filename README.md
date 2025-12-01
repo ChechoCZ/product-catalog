@@ -18,6 +18,7 @@ A modern, full-stack product catalog application built with Next.js, featuring p
 - [API Endpoints](#api-endpoints)
 - [Database Schema](#database-schema)
 - [Scripts](#scripts)
+- [Live](#live)
 
 ## Prerequisites
 
@@ -726,6 +727,5 @@ If using MinIO instead of Vercel Blob:
 4. Run linting and formatting
 5. Submit a pull request
 
-## License
-
-[Add your license here]
+## Live
+https://product-catalog-zeta-bay.vercel.app/
